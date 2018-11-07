@@ -1,0 +1,33 @@
+body {
+  width: 800px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.button {
+  display: inline-block;
+  border: 1px solid black;
+  padding: .6rem 3rem;
+  margin-top: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.button:hover {
+  background-color: black;
+	color: white;
+	cursor: pointer;
+}
+
+.button:active {
+  background-color: black;
+	color: white;
+	cursor: pointer;
+}
